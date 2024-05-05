@@ -1,0 +1,7 @@
+{
+  "name": "technical-interview-project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

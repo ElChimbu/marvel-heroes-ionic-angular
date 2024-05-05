@@ -1,0 +1,38 @@
+ion-list {
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none; /* Elimina la decoración del texto, como el subrayado */
+  border-bottom: none; /* Elimina el borde inferior */
+}
+
+.bannerHero{
+  border-radius: 0;
+  position: absolute;
+  min-width: 100%;
+  min-height: 300px !important;
+  left: 0;
+  z-index: 0;
+  opacity: 0.1;
+  
+}
+
+.profileHero{
+  border-radius: 0;
+  min-width: 100%;
+  min-height: max-content;
+  border-radius: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.hero-item-list{
+  margin: 0;
+  padding: 0;
+
+}
+
+.superHeroName{
+  margin-left: 15px;
+}

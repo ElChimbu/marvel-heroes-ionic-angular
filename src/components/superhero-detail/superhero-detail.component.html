@@ -1,0 +1,28 @@
+<div *ngIf="superhero" class="hero-detail-container">
+  <h1>{{ superhero.name }}</h1>
+  <div>
+    <img class="profileHero"
+    [src]="
+    superhero.thumbnail.path +
+    '/standard_fantastic.' +
+    superhero.thumbnail.extension
+    "
+    alt="Thumbnail"
+    />
+    <p>Comics disponibles: {{ superhero.comics.available }}</p>
+    <p>Series disponibles: {{ superhero.series.available }}</p>
+    <p>Stories disponibles: {{ superhero.stories.available }}</p>
+    
+    <div class="container-button">
+    <button (click)="goBack()">Volver</button>
+  </div>
+  </div>
+  <img class="bannerHero"
+    [src]="
+      superhero.thumbnail.path +
+      '/standard_fantastic.' +
+      superhero.thumbnail.extension
+    "
+    alt="Thumbnail"
+  />
+</div>
